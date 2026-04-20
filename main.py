@@ -837,12 +837,12 @@ class VoiceQA(QMainWindow):
                             break
                         if recognizer.AcceptWaveform(data):
                             result = json.loads(recognizer.Result())
-                            text = result.get("text", "")
+                            text = result.get("text", "") or ""
                             transcript += text
                     
                     # 获取最后一部分
                     result = json.loads(recognizer.FinalResult())
-                    final_text = result.get("text", "")
+                    final_text = result.get("text", "") or ""
                     transcript += final_text
             except Exception as e:
                 error_msg = f"处理音频文件时出错: {str(e)}"
