@@ -2,7 +2,10 @@
 
 Voice QA Assistant 是一个基于语音识别和AI问答的智能助手应用，支持实时音频转文字和基于知识库的智能回答。
 
+<img width="816" height="813" alt="image" src="https://github.com/user-attachments/assets/a60ca908-3b6b-4f55-b9bc-7425d645088b" />
+
 ## 功能特点
+
 
 - **自动音频采集**：支持从输入设备（麦克风）或输出设备（扬声器）采集音频
 - **实时音频转文字**：使用Vosk或Whisper模型进行语音识别，支持中英文
