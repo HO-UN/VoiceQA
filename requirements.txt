@@ -1,0 +1,10 @@
+PyQt5
+sounddevice
+numpy
+pyaudiowpatch
+openai
+vosk
+requests
+scikit-learn
+PyPDF2
+python-docx

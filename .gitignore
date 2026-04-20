@@ -1,0 +1,26 @@
+# 模型文件
+vosk-model-*/
+
+# 临时文件
+*.wav
+temp_*
+
+# 日志文件
+*.log
+
+# 向量存储文件
+vector_store.pkl
+
+# 压缩文件
+*.zip
+
+# 配置文件（可选，包含敏感信息）
+config.json
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
